@@ -1,3 +1,3 @@
-# JuliaTutorialsTemplate
+# JuliaTutorials
 
-See <http://rikhuijzer.github.io/JuliaTutorialsTemplate/> for more information.
+See <http://ihuangz.github.io/JuliaTutorials/> for more information.
