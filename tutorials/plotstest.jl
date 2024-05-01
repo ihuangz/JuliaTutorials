@@ -7,11 +7,6 @@ using InteractiveUtils
 # ╔═╡ c02832ff-b937-44f4-9573-b17a547b1d96
 import Plots
 
-# ╔═╡ 0422891e-0f96-46c9-b571-7eb321380469
-html"""
-<img src="https://box.nju.edu.cn/f/6b803929ecff44888fff/?dl=1" alt="image" width="100" height="auto">
-"""
-
 # ╔═╡ 43006b38-8860-4139-9263-4ee12a216326
 begin
 	x = 0:0.01:2pi
@@ -22,8 +17,6 @@ begin
 	Plots.title!("Test")
 	Plots.xlabel!("x")
 	Plots.ylabel!("y")
-	#basemap!(title="Test",xlabel="x",ylabel="y") 
-	#basemap!(frame=0,show=true)
 end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -1030,7 +1023,6 @@ version = "1.4.1+1"
 
 # ╔═╡ Cell order:
 # ╠═c02832ff-b937-44f4-9573-b17a547b1d96
-# ╟─0422891e-0f96-46c9-b571-7eb321380469
 # ╠═43006b38-8860-4139-9263-4ee12a216326
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
