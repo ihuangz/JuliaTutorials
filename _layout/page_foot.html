@@ -1,14 +1,6 @@
-<script type="text/javascript" src="/libs/ansi_up.js" defer></script>
-
-var currentTime = new Date()
-var month = currentTime.getMonth() + 1
-var day = currentTime.getDate()
-var year = currentTime.getFullYear()
-
-<div id="copyright" class="docs-footer container grid-lg">
-                Website built with 
-                <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a>
-                 and the 
-                <a href="https://julialang.org">Julia programming language</a>. 
-                Last updated: document.write(month + "/" + day + "/" + year).
+<div class="page-foot">
+  <div class="copyright">
+    &copy; {{ fill author }}. Last modified: {{ fill fd_mtime }}. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+  </div>
 </div>
+
