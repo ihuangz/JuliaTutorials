@@ -10,19 +10,34 @@ using Plots
 # ╔═╡ b7952a89-9271-4129-bdd2-6269abcf7780
 using Random
 
+# ╔═╡ 6675b856-0f97-4532-b630-fc5051e6269e
+using LaTeXStrings
+
 # ╔═╡ 6b431b67-9551-44ba-90c3-168cba163755
-x=Random.randn(1000)
+x=Random.randn(1000);
 
 # ╔═╡ 3260efc4-94c1-4001-bc83-bb016439c4d0
-histogram(x,nbins=50,xlabel="value",ylabel="Count",title="Histogram of random values")
+histogram(x,nbins=50,xlabel=L"Value",ylabel=L"Count",title="Histogram of random values")
+
+# ╔═╡ 62109967-ed2f-4c08-8a9b-ba63495b6b2c
+begin
+	x2=-10:1:10
+	plot(x2,x2.^2,lw=2,lc=:red)
+	scatter!(x2,x2.^2)
+	xlabel!(L"X")
+	ylabel!(L"Y")
+	title!(L"Y=X^2")
+end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
+LaTeXStrings = "~1.3.1"
 Plots = "~1.40.4"
 """
 
@@ -32,7 +47,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.10.2"
 manifest_format = "2.0"
-project_hash = "156a7b2fb2c87a8170fa72c5f22d539a72fd45fb"
+project_hash = "d11e4354e00f8582a95cd3f4ca36a2f73f7861af"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -1082,7 +1097,9 @@ version = "1.4.1+1"
 # ╔═╡ Cell order:
 # ╠═c9b385b4-086b-11ef-0c69-4fd9826c82cf
 # ╠═b7952a89-9271-4129-bdd2-6269abcf7780
+# ╠═6675b856-0f97-4532-b630-fc5051e6269e
 # ╠═6b431b67-9551-44ba-90c3-168cba163755
 # ╠═3260efc4-94c1-4001-bc83-bb016439c4d0
+# ╠═62109967-ed2f-4c08-8a9b-ba63495b6b2c
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
