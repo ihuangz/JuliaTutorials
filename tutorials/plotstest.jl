@@ -14,7 +14,6 @@ begin
 	z = cos.(x) 
 	Plots.plot(x,y,lw=2,lc=:red,ls=:dash,label="sin(x)") 
 	Plots.plot!(x,z,lw=1,lc=:blue,ls=:dot,label="cos(x)") 
-	Plots.title!("Test")
 	Plots.xlabel!("x")
 	Plots.ylabel!("y")
 end
