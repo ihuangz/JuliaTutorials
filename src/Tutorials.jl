@@ -81,7 +81,9 @@ function build_tutorials()
     # Copy the Markdown first or the appended notebook links will add up.
     copy_markdown_files()
     append_notebook_links()
+    cd(PKGDIR)    
 end
 precompile(build_tutorials, ())
+
 
 end # module
