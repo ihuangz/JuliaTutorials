@@ -8,7 +8,7 @@ mintoclevel = 2
 # Base files such as LICENSE.md and README.md are ignored by default.
 ignore = ["node_modules/"]
 
-prepath = "JuliaTutorials"
+prepath = "GeophyNotes"
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = false
