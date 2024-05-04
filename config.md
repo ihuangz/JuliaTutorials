@@ -12,9 +12,9 @@ prepath = "JuliaTutorials"
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = false
-website_title = "JuliaTutorials"
-website_descr = "Example website containing Julia tutorials"
-website_url   = "https://ihuangz.github.io/JuliaTutorials/"
+website_title = "Geophysical Notes"
+website_descr = "Geophysical Notes"
+website_url   = "https://ihuangz.github.io/geophynotes/"
 
 +++
 
