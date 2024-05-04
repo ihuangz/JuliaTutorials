@@ -1,3 +1,3 @@
-# JuliaTutorials
+# Geophysical Notes
 
-See <http://ihuangz.github.io/JuliaTutorials/> for more information.
+See <http://ihuangz.github.io/GeophyNotes/> for more information.
